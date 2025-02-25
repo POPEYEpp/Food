@@ -4,7 +4,7 @@ import pandas as pd
 # โหลดข้อมูล
 @st.cache_data
 def load_data():
-    file_path = "C:/Users/informatics/Desktop/65160401/17/Lineman_Shops_Final_Clean.csv"  # เปลี่ยนเป็น path ของคุณ
+    file_path = "Lineman_Shops_Final_Clean.csv"  # เปลี่ยนเป็น path ของคุณ
     df = pd.read_csv(file_path)
     return df
 
